@@ -5,8 +5,8 @@ Introduction
  
 Reference: https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
 
-Group Members          ID No.
-1. Abraham Molla        RCD/0889/2017 
+Group Members                   ID No.
+1. Abraham Molla                  RCD/0889/2017 
 2. Beka Gizaw           RCD/1612/2017  
 3. Kalab Belay          RCD/0921/2017 
 4. Betselot Getnet      RCD/0901/2017 
