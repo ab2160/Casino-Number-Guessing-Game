@@ -5,11 +5,11 @@ Introduction
  
 Reference:https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
 
-Group Members-ID No.
+Group Members
 1. Abraham Molla- RCD/0889/2017 
-2. Beka Gizaw-           RCD/1612/2017  
-3. Kalab Belay-          RCD/0921/2017 
-4. Betselot Getnet-      RCD/0901/2017 
-5. Fikremariam Getaneh-  RCD/0908/2017 
+2. Beka Gizaw- RCD/1612/2017  
+3. Kalab Belay- RCD/0921/2017 
+4. Betselot Getnet- RCD/0901/2017 
+5. Fikremariam Getaneh- RCD/0908/2017 
 6. Fraol Yadete- RCD/1071/2016 
-7. Paulos Simeon-RCD/1702/2017
+7. Paulos Simeon- RCD/1702/2017
