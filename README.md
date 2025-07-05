@@ -28,7 +28,7 @@ Introduction
 - When the loop exits (i.e., guess == num), the program returns 0 and terminates.
 
  
-Reference:
+References
 
 - https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
 
