@@ -28,7 +28,18 @@ Introduction
 - When the loop exits (i.e., guess == num), the program returns 0 and terminates.
 
  
-Reference:https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
+Reference:
+
+- https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
+
+- CodeSpeedy: Build a Number Guessing Game in C++
+
+https://www.codespeedy.com/number-guessing-game-in-cpp/
+
+- Stack Overflow: Simple Number Guessing Game in C++
+
+https://stackoverflow.com/questions/24837559/simple-number-guessing-game-c
+
 
 Group Members
 1. Abraham Molla- RCD/0889/2017 
