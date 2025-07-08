@@ -21,7 +21,7 @@ The `while (guess != num)` loop repeatedly prompts for the player’s `guess`, i
    
  - “CORRECT! Number of tries: X” if `guess == num`
    
- - Prompt to Play Again U+000A After a correct guess, the program asks “Play Again (Yes/No):” and reads the user’s input into `playagain`. If the user types “Yes,” the outer loop continues for another round; otherwise, it exits.
+ - Prompt to Play Again After a correct guess, the program asks “Play Again (Yes/No):” and reads the user’s input into `playagain`. If the user types “Yes,” the outer loop continues for another round; otherwise, it exits.
    
  - Program Termination U+000A Once the outer loop ends (the user enters anything other than “Yes”), the program prints “Thanks for playing.” and returns 0, signaling normal termination.
 
