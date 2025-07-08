@@ -32,7 +32,7 @@ References
 
 - https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
 
--https://www.youtube.com/watch?v=-NA_B_vJP14
+- https://www.youtube.com/watch?v=-NA_B_vJP14
 
 - CodeSpeedy: Build a Number Guessing Game in C++
 https://www.codespeedy.com/number-guessing-game-in-cpp/
