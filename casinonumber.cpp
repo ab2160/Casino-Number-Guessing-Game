@@ -20,6 +20,8 @@ string playagain = "Yes";
         while (playagain == "Yes")
         {
     //The next funciton generates a random integer from 1 to 50 and stores it in the variable named "num".
+    //In this function we only have 50 possibilites because of rand() & 50 that means it is from 0-49.
+    //So we add 1 which makes the range from 1 to 50.
                 num = (rand() % 50) + 1;
                 cout<< "NUMBER GUESSING GAME." << endl;
     //We use a second or inner loop.
