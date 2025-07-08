@@ -9,7 +9,7 @@ int guess;
 //Because if we do not assign a number (zero) it won't count it will generate a random number.
 int tries = 0;
 
-    //sran(time(NULL)); is a function used to initialize a random number generator so that each execution produces a different secret number.
+    //srand(time(NULL)); is a function used to initialize a random number generator so that each execution produces a different secret number.
     srand(time(NULL));
     //The next funciton generates a random integer from 1 to 50 and stores it in the variable named "num".
     num = (rand() % 50) + 1;
