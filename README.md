@@ -1,33 +1,30 @@
 # Casino Number Guessing Game
-Introduction
+# Introduction
 
-  This C++ program implements a simple casino‐style number guessing game. The computer seeds its random number generator using time(NULL), then picks a secret number between 1 and 50. The player repeatedly enters guesses until they find the correct number, receiving feedback on whether each guess is too high or too low. The program also tracks and displays the total number of attempts made.
-  
-  How It Works
-  
-- The program includes <cstdlib> and <ctime> (implicitly via <iostream>) to access rand(), srand(), and time().
-  
-- At startup, srand(time(NULL)); seeds the random number generator so that each execution produces a different secret number.
-  
-- num = (rand() % 50) + 1; generates a random integer from 1 to 50 and stores it in num.
-  
-- A do…while loop prompts the player to enter a guess, ensuring the loop runs at least once and continues until the correct number is guessed.
-  
-- Each time through the loop:
-  
-- The player’s input is read into guess.
-  
-- The attempt counter tries is incremented.
-  
-- If guess is greater than num, the program prints “Too high!”.
-  
-- If guess is less than num, it prints “Too low!”.
-  
-- If guess equals num, it prints “CORRECT!” along with the total tries.
-  
-- When the loop exits (i.e., guess == num), the program returns 0 and terminates.
+This C++ program implements a console‐based number guessing game. It uses `srand(time(NULL))` and `rand()` to generate a secret integer between 1 and 50. The player enters guesses until they find the correct number, receiving “Too high!” or “Too low!” feedback on each attempt. A counter tracks how many tries the player uses, and after a successful guess, the user can choose to play another round by entering “Yes” or end the game by entering “No.”
 
+ How It Works
  
+- Seeding the Random Generator U+000A At the start, `srand(time(NULL))` seeds the pseudo‐random number generator with the current time, ensuring a different sequence of random values on each program execution.
+  
+- Outer Play again Loop
+  
+The `while (playagain == "Yes”) ` loop allows multiple rounds without restarting the program. Before each round, `num` is reset to a new random value in the range 1–50, and `tries` is implicitly reset when the program logic is extended to do so.
+
+ - Inner Guessing Loop
+   
+The `while (guess != num)` loop repeatedly prompts for the player’s `guess`, increments the `tries` counter, and compares `guess` to `num`. It prints:
+
+ - “Too high!” if `guess > num`
+   
+ - “Too low!” if `guess < num`
+   
+ - “CORRECT! Number of tries: X” if `guess == num`
+   
+ - Prompt to Play Again U+000A After a correct guess, the program asks “Play Again (Yes/No):” and reads the user’s input into `playagain`. If the user types “Yes,” the outer loop continues for another round; otherwise, it exits.
+   
+ - Program Termination U+000A Once the outer loop ends (the user enters anything other than “Yes”), the program prints “Thanks for playing.” and returns 0, signaling normal termination.
+
 References
 
 - https://www.youtube.com/watch?v=hfnr2EPzn98&t=245s
