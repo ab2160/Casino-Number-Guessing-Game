@@ -24,7 +24,7 @@ string playagain = "Yes";
     //So we add 1 which makes the range from 1 to 50.
                 num = (rand() % 50) + 1;
                 cout<< "======================"<< endl;
-                cout<< "| NUMBER GUESSING GAME |" << endl;
+                cout<< "|NUMBER GUESSING GAME|" << endl;
                 cout<< "======================"<<endl;
     //We use a second or inner loop.
     //We use this loop for the player to keep guess the secret number until the user finds the correct one.
