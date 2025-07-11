@@ -11,13 +11,13 @@ int guess;
 //Because if we do not assign a number (zero) it won't count it will generate a random number.
 int tries = 0;
 //We set a string variable named playagain to make it clear (even if we can use a char variable by naming it 'y').
-string playagain = "Yes";
+string playagain = "yes";
     //srand(time(NULL)); is a function used to initialize a random number generator so that each execution produces a different secret number.
     //We call this functions from the above library (<cstdlib> and <ctime>).
         srand(time(NULL));
     //We start by the outer loop.
     //This loop allows multiple rounds without restarting the program (if the user says "Yes").
-        while (playagain == "Yes")
+        while (playagain == "yes")
         {
     //The next funciton generates a random integer from 1 to 50 and stores it in the variable named "num".
     //In this function we only have 50 possibilites because of rand() % 50 that means it is from 0-49.
@@ -52,7 +52,7 @@ string playagain = "Yes";
                 }
                 }
             //After we finish the inner loop. Play Again is displayed.
-                cout << "Play Again (Yes/No): ";
+                cout << "Play Again (yes/no): ";
             //If the player choose "Yes". The loop will start again with out terminating the program.
                 cin >> playagain;
                 cout << endl;
