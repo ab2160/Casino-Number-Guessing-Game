@@ -1,6 +1,7 @@
 # include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <cctype>
 using namespace std;
 
 int main() {
