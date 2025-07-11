@@ -38,15 +38,19 @@ string playagain = "yes";
                         tries++;
                 //Then we proceed to the if condition in the inner loop.
                 //We will compare the guess number to the secret number that the computer generated.
-                if(guess > num){
+                if(guess < 1 || guess > 50){
+                //when the number is not in range.
+                cout<< "Not in range. Please enter a number between 1-50."<< endl;
+                }
+                else if(guess > num){
                 //It means the number is higher than the secret number.
                 cout<< "Too high!"<< endl;
                 }
-                else if(guess < num){
+                else if (guess < num) {
                 //It means the number is lower than the secret number.
-                cout<< "Too low!"<< endl;
+                    cout << "Too low!"<< endl;
                 }
-                else{
+                else {
                 //It is the correct number.
                 cout<< "CORRECT! Number of tries: " << tries << endl;
                 }
