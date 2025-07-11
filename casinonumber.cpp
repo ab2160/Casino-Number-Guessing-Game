@@ -55,6 +55,12 @@ string playagain = "yes";
                 cout << "Play Again (yes/no): ";
             //If the player choose "Yes". The loop will start again with out terminating the program.
                 cin >> playagain;
+                //convert to lowercase
+                for (char &c : playagain)
+                {
+                    c = tolower(c);
+                    cout << endl;
+                }
                 cout << endl;
         }
             //Lastly, if the player chooses "No". The loop will end.
